@@ -4,7 +4,4 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ![](./screenshot.png)
 
-### Links
-
-- [Solution Repo](https://github.com/somber-robot/single-price-grid-component)
-- [Live Site](https://somber-robot.github.io/single-price-grid-component/)
+[Live Site](https://somber-robot.github.io/single-price-grid-component/)
