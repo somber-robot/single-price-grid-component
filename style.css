@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --dark-teal: hsl(179, 62%, 43%);
+    --medium-teal: hsl(179, 62%, 55%);
+    --light-teal: hsl(204, 43%, 93%);
+    --green: hsl(71, 73%, 54%);
+    --gray: hsl(218, 22%, 67%);
+}
+
+body{
+    background-color: var(--light-teal);
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    font-family: "Karla", sans-serif;
+}
+
+.container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    width: 70%;
+}
+
+.container p{
+    margin: 0;
+}
+
+.section1 {
+    background-color: white;
+    grid-column: 1 / 3;
+    padding: 2rem 1.7rem;
+    border-radius: 5px 5px 0 0;
+}
+
+.section1-title {
+    color: var(--dark-teal);
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.section1-subtitle {
+    color: var(--green);
+    font-weight: 700;
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+.section1-body {
+    color: var(--gray);
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+.section2 {
+    background-color: var(--dark-teal);
+}
+
+.section3 {
+    background-color: var(--medium-teal);
+}
