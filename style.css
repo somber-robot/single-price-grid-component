@@ -24,6 +24,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2, 50%);
     width: min(512px, 70%);
+    box-shadow: 0 10px 20px rgba(21, 88, 120, 0.16);
 }
 
 .container p{
@@ -132,4 +133,22 @@ body{
     display: flex;
     flex-direction: column;
     gap: 0.1rem;
+}
+
+@media screen and (max-width: 500px){
+    .container {
+        grid-template-columns: 100%;
+    }
+
+    .section1 {
+        grid-column: 1;
+    }
+
+    .section2 {
+        border-radius: 0;
+    }
+
+    .section3 {
+        border-bottom-left-radius: var(--border-radius);
+    }
 }
